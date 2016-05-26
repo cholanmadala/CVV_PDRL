@@ -14,6 +14,10 @@ myApp.config(['$routeProvider',function($routeProvider){
         templateUrl:'views/success.html',
         controller:'SuccessController'
     }).
+     when('/nav',{
+        templateUrl:'views/nav.html',
+        controller:'SuccessController'
+    }).
     otherwise({
     redirectTo:'/login'
     });
